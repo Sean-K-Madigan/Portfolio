@@ -22,13 +22,14 @@
                 <div class="bar3"></div>
             </div> -->
 
-            <h1>.Madigan</h1>
+            <h2 class="header-paragraph">Hello there and welcome! I'm stoked to <br> share my work with you, please enjoy <br> the features of this page as it is truly a <br> reflection of me as a web developer.</h2>
+            <h1 class="main-title">.Madigan</h1>
         </header>
 
 
         <nav class="navbar">
             <ul>
-                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#about">About</a></li> -->
                 <li><a href="#work">Work</a></li>
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -37,13 +38,31 @@
 
 
         <main>
-
+            <aside class="bio">
+                <h2 id="bio-title"></h2>
+                <p class></p>
+            </aside>
         </main>
 
 
-        <footer>
+        <footer id="contact">
+
+            <h4 class="footer-title"> Get in touch with me today!!</h4>
+
+            <form name='signUp' action='/action_page.php' onsubmit='return validateForm()' method='post' required>
+
+                <div class="emailAndMessage">
+                    <input id="email" type='text' name='email' placeholder='Email' />
+
+                    <textarea id="message-box" type="text" name="message" placeholder="Write your message here!"></textarea>
+                </div>
+
+            </form>
+
+            <button id='sendBtn'> Send </button>
 
         </footer>
+
         <script src="./assets/main.js"></script>
     </body>
 </html>
