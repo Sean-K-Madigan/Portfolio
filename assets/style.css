@@ -75,6 +75,7 @@ header {
 /* Header paragraph */
 .header-paragraph {
     color: var(--timberwolf);
+    width: 50%;
     font-size: 40px;
     margin-left: 10%;
     position: relative;
@@ -85,8 +86,9 @@ header {
 .header-paragraph:hover::after {
     content: 'Click the main title below to learn more about me! ↓';
     position: absolute;
-    left: 450px;
+    left: 400px;
     bottom: -150px;
+    width: 80%;
     color: var(--gunmetal);
     background-color: var(--fern);
     border: 2px solid var(--battleship);
@@ -166,7 +168,7 @@ main {
 
 /* About section */
 #about {
-    width: 75%;
+    width: 90%;
     margin: auto;
     margin-top: 150px;
     padding: 20px;
@@ -211,7 +213,7 @@ main {
 
 /* Work section */
 #projects {
-    width: 75%;
+    width: 90%;
     margin: auto;
     margin-top: 150px;
     padding: 20px;
@@ -253,7 +255,7 @@ main {
 
 .project a img:hover::after {
     content: "Click the image above to be taken to the live site.";
-    
+
 }
 
 
@@ -261,7 +263,7 @@ main {
 
 /* Resume section */
 #resume {
-    width: 75%;
+    width: 90%;
     margin: auto;
     margin-top: 150px;
     padding: 20px;
