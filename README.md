@@ -46,6 +46,10 @@ Demonstrates my ability to effectively employ organized sematic HTML tags and th
 
 Please refer to the LICENSE in the repo.
 
+## Screenahot of application
+
+![Screenshot 2024-03-14 203913](https://github.com/Sean-K-Madigan/Portfolio.Madigan/assets/157637384/2a555084-dd8b-4f6d-a8f3-64ac4fc39c95)
+
 ## Mock-Up
 
 The following animation shows the web application's appearance and functionality:
