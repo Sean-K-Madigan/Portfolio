@@ -29,7 +29,7 @@ header {
 }
 
 /* Menu Icon */
- .menu-icon {
+.menu-icon {
     display: inline-block;
     cursor: pointer;
     padding-top: 20px;
@@ -76,7 +76,7 @@ header {
 .header-paragraph {
     color: var(--timberwolf);
     width: 50%;
-    font-size: 40px;
+    font-size: 32px;
     margin-left: 10%;
     position: relative;
     padding-top: 150px;
@@ -238,11 +238,11 @@ main {
     width: 29%;
     /* height: 300px; */
     border-radius: 20px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .project:hover {
-    border: 3px solid var(--gunmetal);
+    border: 2px solid var(--gunmetal);
 }
 
 .projects-subtitle {
@@ -253,12 +253,37 @@ main {
     text-shadow: 3px 3px var(--text-shadow);
 }
 
-.project a img:hover::after {
-    content: "Click the image above to be taken to the live site.";
-
+.project a img {
+    border: 3px solid var(--gunmetal);
+    border-radius: 8px;
+    transition: .7s;
 }
 
+.project a img:hover {
+    transform: scale(1.02, 1.02);
+}
 
+.project a img:active {
+    transform: scale(1.01, 1.01);
+    transition: .0s;
+}
+
+.repo-link {
+    font-size: large;
+    color: var(--timberwolf);
+    transition: .5s;
+}
+
+.repo-link:hover {
+    color: var(--gunmetal);
+    text-decoration: underline;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: large;
+    color: var(--timberwolf);
+}
 
 
 /* Resume section */
@@ -279,6 +304,17 @@ main {
     border: 4px solid var(--gunmetal);
 }
 
+.section-title a {
+    color: var(--timberwolf);
+    text-decoration: none;
+    transition: .6s;
+}
+
+.section-title a:hover {
+    color: var(--gunmetal);
+    text-decoration: underline;
+}
+
 /* Footer contact form */
 #contact {
     background-color: var(--gunmetal);
@@ -295,7 +331,23 @@ main {
     text-shadow: 3px 3px var(--text-shadow);
 }
 
-.emailAndMessage {
+.contact-info {
+    font-size: 22px;
+    color: var(--timberwolf);
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--battleship);
+    transition: .5s;
+}
+
+.contact-info a:hover {
+    color: var(--amaranth)
+    
+}
+
+/* .emailAndMessage {
     display: flex;
     flex-direction: column;
 }
@@ -316,4 +368,4 @@ main {
     font-size: 30px;
     padding: 15px;
     
-}
+} */
