@@ -6,7 +6,9 @@
     --amaranth: #B12F47;
     --fern: #576F2F;
     --engineering: #B80C09;
+    --palatinate: #700C66;
     --text-shadow: #67676799;
+    --bg-opacity: 0.5;
 }
 
 /* Reset */
@@ -19,12 +21,12 @@
 
 /* Body */
 body {
-    background-color: var(--battleship);
+    background: linear-gradient(to bottom, var(--gunmetal), var(--gunmetal), var(--battleship), var(--battleship), var(--timberwolf), var(--battleship), var(--battleship), var(--gunmetal), var(--gunmetal));
 }
 
 /* Header */
 header {
-    background-color: var(--gunmetal);
+    /* background-color: var(--gunmetal); */
     height: fit-content;
 }
 
@@ -79,7 +81,7 @@ header {
     font-size: 32px;
     margin-left: 10%;
     position: relative;
-    padding-top: 150px;
+    padding-top: 115px;
     text-shadow: 3px 3px var(--text-shadow);
     transition: 1s;
 }
@@ -93,7 +95,7 @@ header {
     position: absolute;
     left: 400px;
     bottom: -150px;
-    width: 80%;
+    width: 66%;
     color: var(--gunmetal);
     background-color: var(--fern);
     border: 2px solid var(--battleship);
@@ -164,7 +166,7 @@ header {
 
 /* Navbar settings */
 .navbar {
-    background-color: var(--gunmetal);
+    /* background-color: var(--gunmetal); */
     height: 100px;
     border-top: 2px solid var(--battleship);
     border-bottom: 2px solid var(--battleship);
@@ -193,7 +195,7 @@ header {
 .navbar ul li a:hover {
     box-shadow: 0px 0px 20px 10px var(--amaranth);
     transform: scale(1.1, 1.1);
-    text-shadow: 5px 5px var(--text-shadow);
+    text-shadow: 5px 5px var(--gunmetal);
 }
 
 /* Main */
@@ -218,11 +220,11 @@ main {
 
 #about:hover {
     border: 4px solid var(--gunmetal);
-    background-color: var(--engineering);
+    /* background-color: var(--engineering); */
 }
 
 #bio-title-container {
-    width: 50%;
+    width: 55%;
 }
 
 .section-title {
@@ -241,7 +243,7 @@ main {
 } */
 
 #bio-container {
-    width: 50%;
+    width: 55%;
 }
 
 .bio-text {
@@ -256,6 +258,37 @@ main {
     margin: 20px 10px;
 }
 
+/* Skills section */
+#skills {
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(var(--gunmetal), var(--bg-opacity));
+    background-position: 0px -125px;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 4px solid var(--palatinate);
+    transition: 1s;
+}
+
+#skills:hover {
+    border: 4px solid var(--gunmetal);
+    background-color: var(--palatinate);
+}
+
+.skills {
+    color: var(--gunmetal);
+    transition: 1s;
+}
+
+#skills:hover h2 {
+    color: var(--timberwolf);
+    transition: 1s;
+}
+
 /* Work section */
 #projects {
     width: 90%;
@@ -263,7 +296,7 @@ main {
     margin-top: 150px;
     padding: 20px;
     text-align: center;
-    background-color: var(--gunmetal);
+    /* background-color: var(--gunmetal); */
     border-radius: 20px;
     border: 4px solid var(--fern);
     transition: 1s;
@@ -272,6 +305,11 @@ main {
 #projects:hover {
     background-color: var(--fern);
     border: 4px solid var(--gunmetal);
+}
+
+#projects:hover h2, #projects:hover .projects-subtitle, #projects:hover .repo-link, #projects:hover .description{
+    color: var(--timberwolf);
+    transition: 1s;
 }
 
 .work-links {
@@ -296,6 +334,7 @@ main {
     font-weight: 400;
     color: var(--timberwolf);
     text-shadow: 3px 3px var(--text-shadow);
+    transition: 1s;
 }
 
 .project a img {
@@ -319,17 +358,21 @@ main {
     transition: .5s;
 }
 
-.repo-link:hover {
-    color: var(--gunmetal);
-    text-decoration: underline;
-}
-
 .description {
     margin-top: 15px;
     font-size: large;
     color: var(--timberwolf);
 }
 
+.projects, .projects-subtitle, .repo-link, .description {
+    color: var(--gunmetal);
+    transition: 1s;
+}
+
+.repo-link:hover {
+    color: var(--gunmetal);
+    text-decoration: underline;
+}
 
 /* Resume section */
 #resume {
@@ -338,7 +381,7 @@ main {
     margin-top: 150px;
     padding: 20px;
     text-align: center;
-    background-color: var(--gunmetal);
+    /* background-color: var(--gunmetal); */
     border-radius: 20px;
     border: 4px solid var(--amaranth);
     transition: 1s;
@@ -362,7 +405,7 @@ main {
 
 /* Footer contact form */
 #contact {
-    background-color: var(--gunmetal);
+    /* background-color: var(--gunmetal); */
     height: 600px;
     display: flex;
     justify-content: space-around;
