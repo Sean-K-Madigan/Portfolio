@@ -60,6 +60,9 @@ header {
 } 
 
 
+
+
+
 /* For use when I can update the code to allow for the menu icon to become an X */
 /* .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
@@ -72,6 +75,10 @@ header {
 .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
 } */
+
+
+
+
 
 
 /* Header paragraph */
@@ -114,6 +121,10 @@ header {
     }
 }
 
+
+
+
+
 /* This makes the header paragraph appear to be typed in on page load */
 .letter {
     opacity: 0;
@@ -131,6 +142,10 @@ header {
         transform: translateY(0px);
     }
 }
+
+
+
+
 
 /* Main title color and animations */
 .main-title {
@@ -163,6 +178,10 @@ header {
     transform: scale(1.025,1.025);
     transition: 0.05s;
 }
+
+
+
+
 
 /* Navbar settings */
 .navbar {
@@ -198,9 +217,17 @@ header {
     text-shadow: 5px 5px var(--gunmetal);
 }
 
+
+
+
+
 /* Main */
 main {
 }
+
+
+
+
 
 /* About section */
 #about {
@@ -256,6 +283,10 @@ main {
     border-radius: 40%;
     margin: 20px 10px;
 }
+
+
+
+
 
 /* Skills section */
 #skills {
@@ -327,6 +358,10 @@ main {
     justify-content: space-between;
 }
 
+
+
+
+
 /* Work section */
 #projects {
     width: 90%;
@@ -343,11 +378,6 @@ main {
 #projects:hover {
     background-color: var(--fern);
     border: 4px solid var(--gunmetal);
-}
-
-#projects:hover h2, #projects:hover .projects-subtitle, #projects:hover .repo-link, #projects:hover .description{
-    color: var(--timberwolf);
-    transition: 1s;
 }
 
 #projects:hover h2 {
@@ -396,12 +426,12 @@ main {
 .repo-link {
     font-size: large;
     transition: .5s;
+    text-decoration: none;
 }
 
 .description {
     margin-top: 15px;
     font-size: large;
-    color: var(--timberwolf);
 }
 
 .projects, .projects-subtitle, .repo-link, .description {
@@ -409,10 +439,19 @@ main {
     transition: 1s;
 }
 
-.repo-link:hover {
-    color: var(--gunmetal);
-    /* text-decoration: underline; */
+#projects:hover h2, #projects:hover .projects-subtitle, #projects:hover .repo-link, #projects:hover .description{
+    color: var(--timberwolf);
+    transition: 1s;
 }
+
+.repo-link:hover {
+    color: var(--amaranth);
+    text-decoration: underline;
+}
+
+
+
+
 
 /* Resume section */
 #resume {
@@ -447,6 +486,10 @@ main {
     text-shadow: 3px 3px var(--text-shadow);
     text-decoration: underline;
 }
+
+
+
+
 
 /* Footer contact form */
 #contact {
