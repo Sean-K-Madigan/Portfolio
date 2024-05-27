@@ -1,10 +1,24 @@
-# Portfolio
+  # Portfolio.Madigan
+  
 
-## Project Description
+  ## Project Description
+  
+  The goal of this application is to allow potential employers and other developers to get a sense of who I am and view a portfolio that details my skills and deployed applications. They will be able to learn about me, download my resume, and get a strong idea of skills as a full stack developer. This portfolio has seen many itterations and will see many more as my career evolves. Every itteration has deepened my knowledge of developmental principals.
+  
+  ## Table of Contents
 
-The goal of this Portfolio is to showcase the projects that highlight my proficiency as a web developer/ software engineer. This page is an interactive and adaptive snapshot of that contains both impressive code and links to live projects I've worked on in the past. 
+  - [User Story](#user-story)
+  - [Deployed Link](#deployed-link)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Application Screenshot](#application-screenshot)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Features](#features)
+  - [How to contribute](#how-to-contribute)
+  - [Tests](#tests)
 
-## User Story
+  ## User Story
 
 AS A developer
 I WANT to showcase my proficiencies though an interactive page that can be viewed by employers
@@ -14,44 +28,43 @@ AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-## Acceptance Criteria
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+  ## Deployed Link
 
-## Installation
+  https://sean-k-madigan.github.io/Portfolio.Madigan/
 
-N/A
+  ## Installation
 
-## Usage
+  View at the deployed link
 
-Demonstrates my ability to effectively employ organized sematic HTML tags and the DRY Principle in CSS stylesheets.
+  ## Usage
 
-## Credits 
+  This project should be used to gather an idea of who I am as a developer and my coding ablities.
 
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+  ## Application Screenshot
 
-## License
+  ![Application Screenshot](./assets/images/Screenshot.png)
 
-Please refer to the LICENSE in the repo.
+  ## Credits
 
-## Screenahot of application
+  Sean Madigan
 
-![Screenshot 2024-03-14 203913](https://github.com/Sean-K-Madigan/Portfolio.Madigan/assets/157637384/2a555084-dd8b-4f6d-a8f3-64ac4fc39c95)
+  ## License
 
-## Mock-Up
+  N/A: There is no license associated with this project.
 
-The following animation shows the web application's appearance and functionality:
+  ## Features
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+  This application features semantic HTML, advanced CSS features and supporting JavaScript.
+
+  ## Contributing
+
+  This application is a personal porfolio and not open for contribution. That being said any and all feedback or improvements that could be made to the code are welcome. 
+
+  ## Tests
+
+  N/A
+
+  ## Questions
+
+  Direct any and all questions to ![Sean-K-Madigan](https://github.com/Sean-K-Madigan) on GitHub or to the author via email at sean.k.a.madigan@gmail.com.
