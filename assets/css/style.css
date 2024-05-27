@@ -232,7 +232,6 @@ main {
     font-size: 40px;
     font-weight: 400;
     color: var(--timberwolf);
-    text-shadow: 3px 3px var(--text-shadow);
 }
 
 /* .profile-pic {
@@ -286,7 +285,46 @@ main {
 
 #skills:hover h2 {
     color: var(--timberwolf);
+    text-shadow: 3px 3px var(--gunmetal);
     transition: 1s;
+}
+
+#skills:hover .label {
+    color: var(--timberwolf);
+    transition: 1s;
+}
+
+.skills-list {
+    width: 100%;
+    margin: auto;
+}
+
+.skill {
+    margin: 20px 0;
+}
+
+.label {
+    font-size: 20px;
+    color: var(--gunmetal);
+    text-align: left;
+    transition: 1s;
+}
+
+.bar {
+    height: 20px;
+    background-color: var(--gunmetal);
+    border-radius: 3px;
+    transition: 1s;
+}
+
+#skills:hover .bar {
+    background-color: var(--timberwolf);
+    transition: 1s;
+}
+
+.spectrum {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Work section */
@@ -312,6 +350,10 @@ main {
     transition: 1s;
 }
 
+#projects:hover h2 {
+    text-shadow: 3px 3px var(--gunmetal);
+}
+
 .work-links {
     display: flex;
     justify-content: space-evenly;
@@ -325,15 +367,14 @@ main {
 }
 
 .project:hover {
-    border: 2px solid var(--gunmetal);
+    /* border: 2px solid var(--gunmetal); */
 }
 
 .projects-subtitle {
     margin: 20px 0px;
     font-size: 30px;
     font-weight: 400;
-    color: var(--timberwolf);
-    text-shadow: 3px 3px var(--text-shadow);
+    /* text-shadow: 3px 3px var(--text-shadow); */
     transition: 1s;
 }
 
@@ -354,7 +395,6 @@ main {
 
 .repo-link {
     font-size: large;
-    color: var(--timberwolf);
     transition: .5s;
 }
 
@@ -371,7 +411,7 @@ main {
 
 .repo-link:hover {
     color: var(--gunmetal);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 /* Resume section */
@@ -392,6 +432,10 @@ main {
     border: 4px solid var(--gunmetal);
 }
 
+#resume:hover h2 {
+    text-shadow: 3px 3px var(--gunmetal);
+}
+
 .section-title a {
     color: var(--timberwolf);
     text-decoration: none;
@@ -400,6 +444,7 @@ main {
 
 .section-title a:hover {
     color: var(--gunmetal);
+    text-shadow: 3px 3px var(--text-shadow);
     text-decoration: underline;
 }
 
